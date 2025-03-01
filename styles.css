@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,244,249,1) 100%, rgba(0,212,255,1) 100%);   
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,244,249,1) 100%);   
     scroll-behavior: smooth;
     padding-left: 15%;
     padding-right: 15%;
@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: #1e1e1e;
+    background: none;
     padding-top: 20px;
 }
 .sidebar a {
