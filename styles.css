@@ -1,12 +1,13 @@
 body {
     text-align: center;
-    
-    background: linear-gradient(to bottom, #2c2c2c, #1a1a1a);
-    color: white; /* Ensures text is visible */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,244,249,1) 100%, rgba(0,212,255,1) 100%);   
     scroll-behavior: smooth;
     padding-left: 15%;
     padding-right: 15%;
 }
+
+
 .sidebar {
     height: 100vh;
     width: 250px;
@@ -22,7 +23,9 @@ body {
     font-size: 18px;
     color: white;
     display: block;
+    text-decoration: none;
     transition: 0.3s;
+    cursor: pointer;
 }
 .sidebar a:hover {
     background: #333;
