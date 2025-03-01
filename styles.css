@@ -27,9 +27,7 @@ body {
     transition: 0.3s;
     cursor: pointer;
 }
-.sidebar a:hover {
-    background: #333;
-}
+
 .content {
     margin-left: 260px;
     padding: 20px;
