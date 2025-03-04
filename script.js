@@ -1,5 +1,14 @@
+console.log("script.js is loaded!");
+
+
 function clipboard() {
-    var text = document.getElementById("email-text").innerText;
-    text.select();
-    navigator.clipboard.writeText(text.value);
+    console.log("Clipboard function called!"); // Debugging line
+
+    navigator.clipboard.writeText("jmsever@clemson.edu")
+        .then(() => {
+            alert("Copied to clipboard: jmsever@clemson.edu");
+        })
+        .catch(err => {
+            console.error("Clipboard copy failed: ", err);
+        });
 }

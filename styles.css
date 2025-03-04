@@ -108,3 +108,7 @@ p {
 .half-spacer {
     height: 500px;
 }
+
+.clipboard:hover {
+    size: 50%;
+}   
