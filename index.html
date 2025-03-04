@@ -3,51 +3,50 @@
 <head>
 <title>John Severson</title>
 <link rel="stylesheet" href="styles.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
 <body>
 
 <div class="sidebar">
-    <a href="#Home">Home</a>
     <a href="#About">About</a>
-    <a href="#Projects">Portfolio</a>
+    <a href="#Projects">Projects</a>
     <a href="#Contact">Contact</a>
 </div>
 
 <div class="content">
 
-
-    <div id="Home">
-        <h1>
+    <div id="About">
+        <h1 class="title">
             Hi, Im John
         </h1>
-        <h3>Current Focus</h3>
-        <p>
-            The project that I am currently focused on is a structure from motion program or notebook. The concept is not exactly state of
-            the art as far as I am aware, however I find it very interesting. I originally started working on this about a year ago for a
-            creative inquiry that I was apart of at Clemson that introduced students to machine learning and gave them the tools to work on
-            their own projects. I did not give the class the attention that I should've and my projects never got to where they should've
-            been, hence my working on them now. In hope of doing things right this time I am reading Packt's opencv4 textbook to gain a
-            deeper understanding of the underlying concepts that make sfm possible as I begin to code the notebook. The data/competition 
-            is from Kaggle, more specifically googles/happiers yearly image matching competition. [1/10/2025] Originally I was doing the 2023 challenge,
-            but it has dawned upon me that I have a lot to learn about the subject and the research field has a lot more depth than I
-            originally thought. So, I will be starting with the earliest competition they have on kaggle which to my knowledge is much
-            simpler then the 2023 sfm competition. More to come, this is becoming a bit of a diary lol.
+        <h2 class="about">About Me</h2>
+        <p class="about-text">
+            I am usually a computer science student at Clemson University. However, this semester I am studying abroad in madrid
+            at UC3M. This summer I will be returning to my co-op at Bosch Anderson Plant in Anderson, SC. I am still trying 
+            to figure out exactly what I want to do with my degree, but I have interest in frontend and mobile development as well
+            as machine learning and computer vision.
         </p>
     </div>
-
-    <div id="About">
-        <h2>About Me</h2>
-    </div>
+    <div class="spacer"></div>
 
     <div id="Projects">
-        <h2>Projects</h2>
+        <h2 class="projects">Projects</h2>
     </div>
-
+    <div class="spacer"></div>
     <div id="Contact">
-        <h2>Contact Info</h2>
+        <h2 class="contact">Contact Info</h2>
+        <div id="email">
+            <p id="email-text">
+                jmsever@clemson.edu
+                <button style="background: none; border: none;" class="bi bi-copy" onclick="clipboard()">copy</button>
+            </p>
+
+        </div>
     </div>
+    <div class="half-spacer"></div>
 <div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
